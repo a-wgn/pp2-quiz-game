@@ -8,40 +8,27 @@
     <title>Quiz Time</title>
 </head>
 <body>
-    <!-- navigation bar -->
-    <header>
-    <div>
-        <h1 class="nav-title">Quiz Time</h1>
-    </div>
-    <div class="nav-timer">
-        <h2>Timer: <span id="timer">- -</span></h2>
-    </div>
-</header>
     <!-- Start container and question container -->
-    <div class="container">
-        <div class="start-container">
+        <div class="start-container" id="start-container">
             <h1>Welcome to Quiz Time!</h1>
             <p>This is a timed quiz game, with 10 challenging multiple choice questions! Start the quiz and see how many questions you can answer within 60 seconds.</p>
             <h4>Press the 'Play' button and enjoy the quiz!</h4>
-            <div class="start-bttn">
-                <button class="paly-bttn bttn" id="play-bttn">Play</button>
+            <div class="control-bttn">
+                <button class="play-bttn bttn" id="play-bttn">Play</button>
             </div>
         </div>
-        <div id="question-container" class="hide">
+        <div class="container hide" id="question-container">
             <div id="questions">Question</div>
-            <div id="answer-bttn" class="aw-bttn"></div>
+            <div id="answer-bttn" class="aw-bttn">
             <button class="bttn">Answer 1</button>
             <button class="bttn">Answer 2</button>
             <button class="bttn">Answer 3</button>
             <button class="bttn">Answer 4</button>
         </div>
+    </div>
         <div class="control-bttn">
             <button id="next-bttn" class="next-bttn bttn hide">Next</button>
         </div>
-    </div>
-    <div class="score-space">
-        <p class="score">Right answers:<span id="right">o</span></p>
-        <p class="score">Wrong answers:<span id="wrong">o</span></p>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
