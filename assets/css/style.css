@@ -35,6 +35,10 @@ h1, h4, p {
     color: white;
 }
 
+#questions {
+    font-size: 2rem;
+}
+
 .aw-bttn {
     display: grid;
     grid-template-columns: repeat(2, auto);
