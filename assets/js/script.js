@@ -1,8 +1,9 @@
 const playButton = document.getElementById('start-container')
+const nextButton = document.getElementById('next-bttn')
 const questionContainer = document.getElementById('question-container')
 
 const questionElement = document.getElementById('question')
-const awButton = document.getElementById('answer-button')
+var awButtons = document.getElementById('answer-button');
 
 let shuffledQuestions, currentQuestionIndex
 
@@ -19,17 +20,43 @@ function playGame() {
 
 function nextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex])
+    
+
 }
 
 function showQuestion(question) {
     questionElement.innerText = question.question
+    question.answers.forEach(answer => {
+        const button = document.createElement('button')
+        button.innerText = answer.text
+        button.classList.add('bttn')
+        if (answer.correct) {
+            button.dataset = answer.correct
+        }
+        button.addEventListener('click', selectAnswer)
+        awButtons.appendChild(button)
+    });
 }
 
-function selectAnswer() {
+function selectAnswer(e) {
 
 }
 
 const question = [
+    {
+        question: 'Whats my name?',
+        answers: [
+            { text: 'Anton', correct: true }, 
+            { text: 'Daniel', correct: false }
+        ]
+    },
+    {
+        question: 'Whats my name?',
+        answers: [
+            { text: 'Anton', correct: true }, 
+            { text: 'Daniel', correct: false }
+        ]
+    },
     {
         question: 'Whats my name?',
         answers: [
