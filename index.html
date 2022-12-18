@@ -17,14 +17,11 @@
         <h2>Timer: <span id="timer">- -</span></h2>
     </div>
 </header>
-<section class="main">
     <!-- Start container and question container -->
     <div class="container">
         <div class="start-container">
             <h1>Welcome to Quiz Time!</h1>
-            <br>
             <p>This is a timed quiz game, with 10 challenging multiple choice questions! Start the quiz and see how many questions you can answer within 60 seconds.</p>
-            <br>
             <h4>Press the 'Play' button and enjoy the quiz!</h4>
             <div class="start-bttn">
                 <button class="paly-bttn bttn" id="play-bttn">Play</button>
@@ -42,7 +39,10 @@
             <button id="next-bttn" class="next-bttn bttn hide">Next</button>
         </div>
     </div>
-</section>
+    <div class="score-space">
+        <p class="score">Right answers:<span id="right">o</span></p>
+        <p class="score">Wrong answers:<span id="wrong">o</span></p>
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
