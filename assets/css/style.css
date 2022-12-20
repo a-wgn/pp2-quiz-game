@@ -8,10 +8,6 @@
     border: none;
 }
 
-.header {
-    margin-top: 10px;
-}
-
 :root {
     --hue-neutral: 60;
     --hue-wrong: 0;
@@ -22,15 +18,13 @@ body {
     font-family: Josefin Sans, sans-serif;
     --hue: var(--hue-neutral);
     background-color: hsl(var(--hue), 0%, 0%);
-    display: flex;
     width: 100vw;
     height: 100vh;
+    color: white;
     justify-content: center;
     align-items: center;
-    color: white;
+    display: flex;
 }
-
-/* Header */
 
 h1, h4, p {
     text-align: center;
