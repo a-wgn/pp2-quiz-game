@@ -8,15 +8,30 @@
     border: none;
 }
 
+:root {
+    --hue-neutral: 40;
+    --hue-wrong: 0;
+    --hue-correct: 147;
+}
+
 body {
     font-family: Josefin Sans, sans-serif;
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 100%, 30%);
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: black;
     color: white;
+}
+
+body.correct {
+    --hue: var(--hue-correct);
+}
+
+body.wrong {
+    --hue: var(--hue-wrong);
 }
 
 /* Header */
@@ -47,13 +62,19 @@ h1, h4, p {
 }
 
 .bttn {
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 100%, 50%);
     border-radius: 5px;
     padding: 10px 0;
     color: black;
 }
 
-.bttn:hover {
-    background-color: aquamarine;
+.bttn.correct {
+    --hue: var(--hue-correct);
+}
+
+.bttn.wrong {
+    --hue: var(--hue-wrong);
 }
 
 .play-bttn, .next-bttn {
