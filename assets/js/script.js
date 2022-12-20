@@ -80,21 +80,93 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'Anton is cool?',
+        question: 'In which Italian city can you find the Colosseum?',
         answers: [
-            { text: '2', correct: true },
-            { text: '2', correct: false },
-            { text: '2', correct: false },
-            { text: '2', correct: false }
+            { text: 'Venice', correct: false },
+            { text: 'Rome', correct: true },
+            { text: 'Naples', correct: false },
+            { text: 'Mila', correct: false }
         ]
     },
     {
-        question: 'Anton is cool? tegdhghf',
+        question: 'What city hosted the 2002 Olympic Games?',
         answers: [
-            { text: '2', correct: true },
-            { text: '2', correct: false },
-            { text: '2', correct: false },
-            { text: '2', correct: false }
+            { text: 'Tokyo', correct: false },
+            { text: 'Beijing', correct: false },
+            { text: 'Sydney', correct: true },
+            { text: 'Munich', correct: false }
+        ]
+    },
+    {
+        question: 'Which city is home to the Brandenburg Gate?',
+        answers: [
+            { text: 'Berlin', correct: true },
+            { text: 'Frankfurt', correct: false },
+            { text: 'Cologne', correct: false },
+            { text: 'Munich', correct: false }
+        ]
+    },
+    {
+        question: 'Where was the first example of paper money used?',
+        answers: [
+            { text: 'China', correct: true },
+            { text: 'Turkey', correct: false },
+            { text: 'Greece', correct: false },
+            { text: 'Thailand', correct: false }
+        ]
+    },
+    {
+        question: 'Where was tea invented?',
+        answers: [
+            { text: 'England', correct: false },
+            { text: 'China', correct: true },
+            { text: 'USA', correct: false },
+            { text: 'France', correct: false }
+        ]
+    },
+    {
+        question: 'If you were looking at Iguazu Falls, on what continent would you be?',
+        answers: [
+            { text: 'Asia', correct: false },
+            { text: 'Africa', correct: false },
+            { text: 'Europe', correct: false },
+            { text: 'South America', correct: true }
+        ]
+    },
+    {
+        question: 'Which of the following languages has the longest alphabet?',
+        answers: [
+            { text: 'Greek', correct: false },
+            { text: 'Russian', correct: true },
+            { text: 'German', correct: false },
+            { text: 'Arabic', correct: false }
+        ]
+    },
+    {
+        question: 'How long did dinosaurs live on the earth?',
+        answers: [
+            { text: '50-100 million years', correct: false },
+            { text: '100-150 million years', correct: false },
+            { text: '150-200 million years', correct: true },
+            { text: '200+ million years', correct: false }
+        ]
+    },
+    {
+        question: 'What spirit is used in making a Tom Collins?',
+        answers: [
+            { text: 'Vodka', correct: false },
+            { text: 'Gin', correct: true },
+            { text: 'Tequila', correct: false },
+            { text: 'Rum', correct: false }
+        ]
+    },
+    {
+        question: 'How many plays do people (generally) believe that Shakespeare wrote?',
+        answers: [
+            { text: '27', correct: false },
+            { text: '37', correct: true },
+            { text: '47', correct: false },
+            { text: '57', correct: false }
         ]
     }
 ]

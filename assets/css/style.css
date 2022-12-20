@@ -17,21 +17,13 @@
 body {
     font-family: Josefin Sans, sans-serif;
     --hue: var(--hue-neutral);
-    background-color: hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue), 0%, 0%);
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
     color: white;
-}
-
-body.correct {
-    --hue: var(--hue-correct);
-}
-
-body.wrong {
-    --hue: var(--hue-wrong);
 }
 
 /* Header */
@@ -50,8 +42,9 @@ h1, h4, p {
     color: white;
 }
 
-#questions {
-    font-size: 2rem;
+#question {
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .aw-bttn {
