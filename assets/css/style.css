@@ -8,8 +8,12 @@
     border: none;
 }
 
+.header {
+    margin-top: 10px;
+}
+
 :root {
-    --hue-neutral: 40;
+    --hue-neutral: 60;
     --hue-wrong: 0;
     --hue-correct: 147;
 }
@@ -70,7 +74,7 @@ h1, h4, p {
     --hue: var(--hue-wrong);
 }
 
-.play-bttn, .next-bttn {
+.play-bttn, .next-bttn, .reset-bttn {
     font-size: 2rem;
     font-weight: bold;
     padding: 5px 10px;
@@ -86,4 +90,3 @@ h1, h4, p {
 .hide {
     display: none;
 }
-

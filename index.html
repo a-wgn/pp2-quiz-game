@@ -9,14 +9,14 @@
 </head>
 <body>
     <section class="container">
-    <div class="start-container" id="start-container">
-        <h1>Welcome to Quiz Time!</h1>
-        <p>This is a quiz game, with 10 challenging multiple choice questions! Start the quiz and see how many questions you can answer correctly.</p>
-        <h4>Press the 'Play' button and enjoy the quiz!</h4>
-        <div class="control-bttn">
-            <button class="play-bttn bttn" id="play-bttn">Play</button>
+        <div class="start-container" id="start-container">
+            <h1>Welcome to Quiz Time!</h1>
+            <p>This is a quiz game, with 10 challenging multiple choice questions! Start the quiz and see how many questions you can answer correctly.</p>
+            <h4>Press the 'Play' button and enjoy the quiz!</h4>
+            <div class="control-bttn">
+                <button class="play-bttn bttn" id="play-bttn">Play</button>
+            </div>
         </div>
-    </div>
     <div class="hide" id="question-container">
         <div id="question">Question</div>
         <div id="answer-bttn" class="aw-bttn">
@@ -27,9 +27,14 @@
     </div>
 </div>
 <div class="control-bttn">
+    <button id="reset-bttn" class="reset-bttn bttn hide">Reset</button>
     <button id="next-bttn" class="next-bttn bttn hide">Next</button>
 </div>
 </section>
+<div class="scores hide" id="answer-score">
+    <p class="score">Correct: <span id="answer-correct">0</span></p>
+    <p class="score">Incorrect: <span id="answer-incorrect">0</span></p>
+</div>
 <script defer src="assets/js/script.js"></script>
 </body>
 </html>

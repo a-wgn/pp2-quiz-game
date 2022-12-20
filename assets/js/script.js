@@ -3,6 +3,12 @@ const questionContainer = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButton = document.getElementById('answer-bttn')
 const nextButton = document.getElementById('next-bttn')
+const resetButton = document.getElementById('reset-bttn')
+let scoreCorrect = document.getElementById('answer-correct')
+let scoreIncorrect = document.getElementById('answer-incorrect')
+let scoreElement = document.getElementById('answer-score')
+let score = 0;
+let incorrect = 0;
 
 
 let shuffelQuestion, currentQuestion
@@ -12,16 +18,28 @@ nextButton.addEventListener('click', () => {
     currentQuestion++
     nextQuestion()
 })
+resetButton.addEventListener('click', resetGame)
 
 function playGame() {
 console.log('Started')
 playButton.classList.add('hide')
+resetButton.classList.add('hide')
 shuffelQuestion = questions.sort(() => Math.random() - .5)
 currentQuestion = 0
 questionContainer.classList.remove('hide')
+scoreElement.classList.remove('hide')
 nextQuestion()
 }
 
+function incrementCorrectAnswer(){
+    score++;
+    scoreCorrect.innerHTML = score;
+}
+
+function incrementWrongAnswer(){
+    incorrect++;
+    scoreIncorrect.innerHTML = incorrect;
+}
 function nextQuestion() {
     resetState()
     showQuestion(shuffelQuestion[currentQuestion])
@@ -59,9 +77,13 @@ function choseAnswer(e) {
     if (shuffelQuestion.length > currentQuestion + 1) {
         nextButton.classList.remove('hide')
     } else {
-        playButton.innerText = 'Restart'
-        playButton.classList.remove('hide')
+        resetButton.classList.remove('hide')
     }  
+    if (correct === 'true'){
+        incrementCorrectAnswer();
+    } else {
+        incrementWrongAnswer();
+    }
 }
 
 function setStatus(element, correct) {
@@ -71,6 +93,17 @@ function setStatus(element, correct) {
     } else {
         element.classList.add('wrong')
     }
+}
+
+function resetGame (){
+    score = 0;
+    incorrect = 0;
+    scoreCorrect.innerHTML = score;
+    scoreIncorrect.innerHTML = incorrect;
+    shuffledQuestion = questions.sort(() => Math.random() - 0.5);
+    currentQuestion = 0;
+    resetButton.classList.toggle('hide');
+    nextQuestion();
 }
 
 function clearStatusClass(element) {
@@ -85,7 +118,7 @@ const questions = [
             { text: 'Venice', correct: false },
             { text: 'Rome', correct: true },
             { text: 'Naples', correct: false },
-            { text: 'Mila', correct: false }
+            { text: 'Milan', correct: false }
         ]
     },
     {
