@@ -29,3 +29,39 @@ When an answer has been answered correct or incorrect, the user will also see th
 After the last question has been answred the user will see an 'Reset' button, which will reset the game and score. The user will then be able to start the game again. 
 
 ## Testing
+
+## Bugs
+
+## Validator Testing
+
+- HTML 
+    - No errors were returned when passing through the offical W3C validator 
+
+    ![image-HTML]
+
+- CSS
+    - No errors were returned when passing through the offical (Jigsaw) validator 
+
+    ![image-CSS]
+    
+- JavaScirpt
+    - No errors were returned when passing through the offical () validator 
+    ![image-JS]
+
+
+## Unfixed Bugs
+
+## Deployment 
+
+The site was deployed to GitHub Pages. 
+
+- The steps to deploy the are as follow: 
+    - In the GitHub repository, navigate to the Settings tab
+    - Choose Pages from the left side menu.
+    - Select the Master Branch from the source section drop-down menu.
+    - The page will automatically be refreshed with a detailed ribbon display to indicate that the deployment was successful.
+
+
+The live link can be found here - [Quiz Game](https://a-wgn.github.io/pp2-quiz-game/)
+
+## Credits 
