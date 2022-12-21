@@ -20,6 +20,10 @@ nextButton.addEventListener('click', () => {
 })
 resetButton.addEventListener('click', resetGame)
 
+
+/**
+  * The function will hide the play button and shuffle the questions, show the question container, score area
+  */
 function playGame() {
 console.log('Started')
 playButton.classList.add('hide')
@@ -31,6 +35,9 @@ scoreElement.classList.remove('hide')
 nextQuestion()
 }
 
+/**
+  * The function increment the score and show how many questions have been answered correct or wrong
+  */
 function incrementCorrectAnswer(){
     score++;
     scoreCorrect.innerHTML = score;
@@ -45,6 +52,9 @@ function nextQuestion() {
     showQuestion(shuffelQuestion[currentQuestion])
 }
 
+/**
+  * The function will display the questions and the answeres in the buttons 
+  */
 function showQuestion(question) {
     questionElement.innerText = question.question
     question.answers.forEach(answer => {
@@ -67,6 +77,9 @@ function resetState() {
     }
 }
 
+/**
+  * The function selects the users answeres and checks if answer is correct or incorrect 
+  */
 function choseAnswer(e) {
     const selectButton = e.target
     const correct = selectButton.dataset.correct
@@ -95,6 +108,14 @@ function setStatus(element, correct) {
     }
 }
 
+function clearStatusClass(element) {
+    element.classList.remove('correct')
+    element.classList.remove('wrong')
+}
+
+/**
+  * The function will reset the game and display a reset button 
+  */
 function resetGame (){
     score = 0;
     incorrect = 0;
@@ -106,10 +127,7 @@ function resetGame (){
     nextQuestion();
 }
 
-function clearStatusClass(element) {
-    element.classList.remove('correct')
-    element.classList.remove('wrong')
-}
+// questions 
 
 const questions = [
     {
