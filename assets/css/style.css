@@ -31,6 +31,9 @@ h1, h4, p {
     margin: 20px;
 }
 
+
+/* Main style for start and question container */
+
 .container {
     width: 800px;
     max-width: 80%;
@@ -44,6 +47,8 @@ h1, h4, p {
     font-size: 1.5rem;
     text-align: center;
 }
+
+/* Style for buttons */
 
 .aw-bttn {
     display: grid;
@@ -60,14 +65,6 @@ h1, h4, p {
     color: black;
 }
 
-.bttn.correct {
-    --hue: var(--hue-correct);
-}
-
-.bttn.wrong {
-    --hue: var(--hue-wrong);
-}
-
 .play-bttn, .next-bttn, .reset-bttn {
     font-size: 2rem;
     font-weight: bold;
@@ -80,6 +77,18 @@ h1, h4, p {
     justify-content: center;
     align-items: center;
 }
+
+/* Color for answer buttons when answer correct or incorrect */
+
+.bttn.correct {
+    --hue: var(--hue-correct);
+}
+
+.bttn.wrong {
+    --hue: var(--hue-wrong);
+}
+
+/* Hide question container */
 
 .hide {
     display: none;

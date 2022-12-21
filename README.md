@@ -12,44 +12,63 @@ This web-game provides users with a quick quiz game to answer 10 challenging que
 
 The first what a user will see on the page is a short intoduction of the quiz and a 'Play' button. By clicking the 'Play' button the user will see the first question and can start playing the quiz. 
 
+![play-button](https://user-images.githubusercontent.com/114663540/208935803-69174000-1ed3-4993-9fb2-2a266329ce70.png)
+
 ### Quiz area
 
 After clicking on the 'Play' button the user will see the Quiz area, which will display a question and 4 answers to choe from. The user will also see the how many correct and incorrect questions have been answered. 
+
+![quiz-area](https://user-images.githubusercontent.com/114663540/208935994-cd9923f4-2ce5-495e-b3b5-420e33afc6c7.png)
 
 ### Answers 
 
 When answering the question and clickin one one of the answers, the user will see if clicked on the correct answer that the answer will be higlited in green and the rest of the answer will be higlited in red. If the incorrect answer has been choosen the user will see the incorrect answers in red and also see the correct answers. After the answer has been answered the user will also see the 'Next' button to go to the next question. 
 
+![answers](https://user-images.githubusercontent.com/114663540/208936124-adffa1aa-00ea-4421-895c-ab2578f44558.png)
+
 ### Correct and incorrect answers 
 
 When an answer has been answered correct or incorrect, the user will also see that +1 has been added to 'Correct' or 'incorrect'. The user knows immediately how many questions have been answere correct and incorrect. 
 
+![answer-score](https://user-images.githubusercontent.com/114663540/208936590-94a46711-ec68-4324-9cab-576c912f7897.png)
+
 ### Reset Button 
 
-After the last question has been answred the user will see an 'Reset' button, which will reset the game and score. The user will then be able to start the game again. 
+After the last question has been answred the user will see an 'Reset' button, which will reset the game and score. The user will then be able to start the game again.
+
+![reset-button](https://user-images.githubusercontent.com/114663540/208936415-9a353741-e9dc-4908-8b74-dd48943fda80.png)
 
 ## Testing
 
 ## Bugs
+
+- No bugs where encountered during development
 
 ## Validator Testing
 
 - HTML 
     - No errors were returned when passing through the offical W3C validator 
 
-    ![image-HTML]
+    ![image-HTML](https://user-images.githubusercontent.com/114663540/208935561-75619576-389a-4126-85c9-a159fca4fd91.png)
 
 - CSS
-    - No errors were returned when passing through the offical (Jigsaw) validator 
+    - No errors were returned when passing through the offical Jigsaw validator 
 
-    ![image-CSS]
-    
-- JavaScirpt
-    - No errors were returned when passing through the offical () validator 
-    ![image-JS]
+    ![image-CSS](https://user-images.githubusercontent.com/114663540/208935551-acb85658-8e4e-4eb0-bd71-ac0fcbcde023.png)
+
+- Accessibility 
+    - I confirmed that the website easy to read in reagrds to the choosen color and font and is accessible by running it through Lighthous in the Developer Tools in Chrome. The test has been completed for mobile and desktop. 
+
+- Mobile
+![image-mobile](https://user-images.githubusercontent.com/114663540/208935081-8aa33a4c-500e-43ad-8c19-a6fb4f7a1eb8.png)
+
+- Desktop
+![image-desktop](https://user-images.githubusercontent.com/114663540/208935114-7e2a7b9a-84ff-4313-950c-5b1d6fe3eade.png)
 
 
 ## Unfixed Bugs
+
+- No unfixed bugs
 
 ## Deployment 
 
