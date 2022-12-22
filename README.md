@@ -98,3 +98,26 @@ The site was deployed to GitHub Pages.
 The live link can be found here - [Quiz Game](https://a-wgn.github.io/pp2-quiz-game/)
 
 ## Credits 
+
+- W3Schools, W3, smachmagazine.com
+    - Hue colors scheme: https://www.w3schools.com/css/css_colors_hsl.asp
+    - Hue properties and hsl: https://www.w3.org/wiki/CSS/Properties/color/HSL
+    - CSS hue: https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/
+
+- Questions ans answeres for the quiz game
+    - https://www.quiztriviagames.com/multiple-choice-trivia-questions/
+    - https://www.mentimeter.com/blog/stand-out-get-ahead/trivia-questions
+    - https://www.ultimatequizquestions.com/multiple-choice-trivia-questions/
+    - https://triviaquestions4u.com/multiple-choice-trivia-questions-and-answer/
+
+- JavaScript
+    - appenchild: https://www.w3schools.com/jsref/met_node_appendchild.asp
+    - for.Each: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+    - Math.random: 
+        - https://www.w3schools.com/js/js_random.asp
+        - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+    - document.body: https://www.w3schools.com/jsref/prop_doc_body.asp
+    - inner.HTML: https://www.w3schools.com/jsref/prop_html_innerhtml.asp
+
+- Google Font 
+    - https://fonts.google.com/
