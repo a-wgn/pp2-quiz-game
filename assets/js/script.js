@@ -43,7 +43,7 @@ function incrementCorrectAnswer(){
     scoreCorrect.innerHTML = score;
 }
 
-function incrementWrongAnswer(){
+function incrementIncorrectAnswer(){
     incorrect++;
     scoreIncorrect.innerHTML = incorrect;
 }
@@ -95,7 +95,7 @@ function choseAnswer(e) {
     if (correct === 'true'){
         incrementCorrectAnswer();
     } else {
-        incrementWrongAnswer();
+        incrementIncorrectAnswer();
     }
 }
 
