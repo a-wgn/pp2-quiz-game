@@ -118,6 +118,7 @@ The live link can be found here - [Quiz Game](https://a-wgn.github.io/pp2-quiz-g
         - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
     - document.body: https://www.w3schools.com/jsref/prop_doc_body.asp
     - inner.HTML: https://www.w3schools.com/jsref/prop_html_innerhtml.asp
+    - incrementing score: https://stackoverflow.com/questions/29022829/increment-score-using-javascript
 
     - Idea for Quiz game: 
         - https://www.youtube.com/watch?v=riDzcEQbX6k
