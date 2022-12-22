@@ -104,7 +104,7 @@ The live link can be found here - [Quiz Game](https://a-wgn.github.io/pp2-quiz-g
     - Hue properties and hsl: https://www.w3.org/wiki/CSS/Properties/color/HSL
     - CSS hue: https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/
 
-- Questions ans answeres for the quiz game
+- Questions and answeres for the quiz game
     - https://www.quiztriviagames.com/multiple-choice-trivia-questions/
     - https://www.mentimeter.com/blog/stand-out-get-ahead/trivia-questions
     - https://www.ultimatequizquestions.com/multiple-choice-trivia-questions/
