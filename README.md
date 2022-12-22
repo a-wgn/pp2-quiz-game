@@ -40,6 +40,20 @@ After the last question has been answred the user will see an 'Reset' button, wh
 
 ## Testing
 
+- Tested that the Quiz Game works on different browsers such as: Chrome, Firefox and Safari.
+
+- Tested that the Quiz Game works on different mobile phones, such as: Iphone 10-14 and Samsung. 
+
+- Tested that the 'Play' button is clickable and hides when the Quiz area opens. 
+
+- Tested that the 'Next' button is hidden when the user did not answer the question and is not hidden anymore when the question is answered.  
+
+- Tested that, when the correct question is answered it higlights in green and when the questions is answered incorrect the answer is highlighted in red. 
+
+- Tested that the score area works, when a questions is answred correct or incorrect.
+
+- Tested that the "Reset" button appears, when the user answers the last question. The button resets the questions and score, so that the questions can be answered again. 
+
 ## Bugs
 
 - No bugs where encountered during development
