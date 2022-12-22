@@ -119,5 +119,9 @@ The live link can be found here - [Quiz Game](https://a-wgn.github.io/pp2-quiz-g
     - document.body: https://www.w3schools.com/jsref/prop_doc_body.asp
     - inner.HTML: https://www.w3schools.com/jsref/prop_html_innerhtml.asp
 
+    - Idea for Quiz game: 
+        - https://www.youtube.com/watch?v=riDzcEQbX6k
+        - https://www.youtube.com/watch?v=f4fB9Xg2JEY
+
 - Google Font 
     - https://fonts.google.com/
